@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.wasdev.wlp.starters</groupId>
+	<artifactId>starter-microservice-websocket-0.0.3</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>Websocket v0.0.3 Starters</name>
+
+	<parent>
+		<groupId>net.wasdev.wlp.starters</groupId>
+		<artifactId>starter-microservice-web</artifactId>
+		<version>1.0</version>
+		<relativePath />
+	</parent>
+
+	<modules>
+		<module>provided</module>
+		<module>runtime</module>
+		<module>server-snippet</module>
+	</modules>
+
+</project>
