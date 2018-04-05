@@ -5,7 +5,7 @@
 	<artifactId>app-accelerator-starters</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
-	<name>App Accelerator Starters</name>
+	<name>Liberty Starters</name>
 
 	<parent>
 		<groupId>net.wasdev.maven.parent</groupId>

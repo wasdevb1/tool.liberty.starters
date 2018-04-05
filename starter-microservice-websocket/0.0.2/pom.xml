@@ -9,7 +9,7 @@
 
 	<parent>
 		<groupId>net.wasdev.wlp.starters</groupId>
-		<artifactId>starter-microservice-web</artifactId>
+		<artifactId>starter-microservice-websocket</artifactId>
 		<version>1.0</version>
 		<relativePath />
 	</parent>
