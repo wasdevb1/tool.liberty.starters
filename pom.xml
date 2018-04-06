@@ -3,20 +3,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.wasdev.wlp.starters</groupId>
 	<artifactId>app-accelerator-starters</artifactId>
-	<version>1.0</version>
 	<packaging>pom</packaging>
 	<name>Liberty Starters</name>
+	<version>0.0.1</version>
 
 	<parent>
 		<groupId>net.wasdev.maven.parent</groupId>
 		<artifactId>parent</artifactId>
 		<version>1.4</version>
-		<relativePath />
 	</parent>
 
 	<modules>
 		<module>starter-microservice-microprofile</module>
-		<module>starter-microservice-ms-builder</module>
+		<!--><module>starter-microservice-ms-builder</module><-->
 		<module>starter-microservice-persistence</module>
 		<module>starter-microservice-rest</module>
 		<module>starter-microservice-springboot-web</module>

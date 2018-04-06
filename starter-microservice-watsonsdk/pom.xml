@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>net.wasdev.wlp.starters</groupId>
-	<artifactId>starter-microservice-watsonsdk</artifactId>
-	<version>1.0</version>
-	<packaging>pom</packaging>
-	<name>Watson SDK Starters</name>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.wasdev.wlp.starters.watsonsdk</groupId>
+    <artifactId>starter-microservice-watsonsdk</artifactId>
+    <packaging>pom</packaging>
+    <name>Watson SDK Starters</name>
 
-	<parent>
-		<groupId>net.wasdev.wlp.starters</groupId>
-		<artifactId>app-accelerator-starters</artifactId>
-		<version>1.0</version>
-		<relativePath />
-	</parent>
+    <parent>
+        <groupId>net.wasdev.wlp.starters</groupId>
+        <artifactId>app-accelerator-starters</artifactId>
+        <version>0.0.1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
 
-	<modules>
-		<module>0.0.1</module>
-		<module>0.0.2</module>
-		<module>0.0.3</module>
-		<module>0.0.4</module>
-		<module>0.0.5</module>
-		<module>0.0.6</module>
-	</modules>
+    <modules>
+        <module>compile</module>
+    </modules>
 
 </project>
