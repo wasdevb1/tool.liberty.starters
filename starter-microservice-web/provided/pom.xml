@@ -4,22 +4,22 @@
 
     <groupId>net.wasdev.wlp.starters.web</groupId>
     <artifactId>provided-pom</artifactId>
-    <version>0.0.1</version>
-
+    <version>0.0.2</version>
+    <packaging>pom</packaging>
     <name>provided-pom</name>
     
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
-            <url>https://raw.github.com/WASdev/tool.artisan.core/master/LICENSE</url>
+            <url>https://raw.github.com/WASdev/tool.accelerate.core/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
     
     <scm>
-        <connection>scm:git:git@github.com:WASdev/tool.artisan.core.git</connection>
-        <developerConnection>scm:git@github.com:WASdev/tool.artisan.core.git</developerConnection>
-        <url>git@github.com:WASdev/tool.artisan.core.git</url>
+        <connection>scm:git:git@github.com:WASdev/tool.accelerate.core.git</connection>
+        <developerConnection>scm:git@github.com:WASdev/tool.accelerate.core.git</developerConnection>
+        <url>git@github.com:WASdev/tool.accelerate.core.git</url>
     </scm>
 
     <repositories>

@@ -4,7 +4,7 @@
 
     <groupId>net.wasdev.wlp.starters.websocket</groupId>
     <artifactId>provided-pom</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>pom</packaging>
     <name>provided-pom</name>
     
@@ -27,7 +27,6 @@
             <groupId>javax.websocket</groupId>
             <artifactId>javax.websocket-api</artifactId>
             <version>1.1</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 

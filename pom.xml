@@ -5,7 +5,7 @@
 	<artifactId>app-accelerator-starters</artifactId>
 	<packaging>pom</packaging>
 	<name>Liberty Starters</name>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 
 	<parent>
 		<groupId>net.wasdev.maven.parent</groupId>
@@ -15,7 +15,6 @@
 
 	<modules>
 		<module>starter-microservice-microprofile</module>
-		<!--><module>starter-microservice-ms-builder</module><-->
 		<module>starter-microservice-persistence</module>
 		<module>starter-microservice-rest</module>
 		<module>starter-microservice-springboot-web</module>

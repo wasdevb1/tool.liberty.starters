@@ -4,8 +4,9 @@
 
     <groupId>net.wasdev.wlp.starters.swagger</groupId>
     <artifactId>provided-pom</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>pom</packaging>
+
     <name>provided-pom</name>
     
     <licenses>
@@ -29,7 +30,7 @@
             <url>https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/maven/repository/</url>
         </repository>
     </repositories>
-    
+	
     <dependencies>
         <dependency>
             <groupId>io.swagger</groupId>
