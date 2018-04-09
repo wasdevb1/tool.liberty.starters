@@ -1,4 +1,4 @@
-<!-- Copyright (c) 2016 IBM Corp.
+<!-- Copyright (c) 2016,17 IBM Corp.
  
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -14,8 +14,6 @@
 <server description="MicroProfile server snippet">
 
     <featureManager>
-        <feature>cdi-1.2</feature>
-        <feature>jaxrs-2.0</feature>
-        <feature>jsonp-1.0</feature>
+        <feature>microprofile-1.0</feature>
     </featureManager>
 </server>

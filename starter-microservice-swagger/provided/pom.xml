@@ -4,7 +4,7 @@
 
     <groupId>net.wasdev.wlp.starters.swagger</groupId>
     <artifactId>provided-pom</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <packaging>pom</packaging>
 
     <name>provided-pom</name>
@@ -36,6 +36,16 @@
             <groupId>io.swagger</groupId>
             <artifactId>swagger-annotations</artifactId>
             <version>1.5.3</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.websphere.appserver.api</groupId>
+            <artifactId>com.ibm.websphere.appserver.api.servlet</artifactId>
+            <version>1.0.10</version>
         </dependency>
     </dependencies>
 
