@@ -19,9 +19,4 @@
     </featureManager>
 	
     <keyStore id="defaultKeyStore" password="Liberty"/>
-	
-    <basicRegistry id="basic" realm="ibm/api">
-        <user name="guest" password="password" />
-    </basicRegistry>
-
 </server>
