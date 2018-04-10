@@ -5,13 +5,7 @@
     <artifactId>starter-microservice-microprofile</artifactId>
     <packaging>pom</packaging>
     <name>Microprofile Starters</name>
-
-    <parent>
-        <groupId>net.wasdev.wlp.starters</groupId>
-        <artifactId>app-accelerator-starters</artifactId>
-        <version>0.0.1</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
+    <version>0.0.1-SNAPSHOT</version>
 
     <modules>
         <module>provided</module>
