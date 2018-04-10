@@ -13,6 +13,13 @@
         <version>1.4</version>
     </parent>
 
+    <scm>
+		<connection>scm:git:git@github.com:wasdevb1/tool.liberty.starters.git</connection>
+		<developerConnection>scm:git:git@github.com:wasdevb1/tool.liberty.starters.git</developerConnection>
+		<url>git@github.com:wasdevb1/tool.liberty.starters.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
     <modules>
         <module>starter-microservice-microprofile</module>
         <module>starter-microservice-persistence</module>
