@@ -9,7 +9,7 @@
     </parent>
     
 
-    <groupId>net.wasdev.wlp.starters.springboot</groupId>
+    <groupId>net.wasdev.wlp.starters.springboot-web</groupId>
     <artifactId>runtime-pom</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
