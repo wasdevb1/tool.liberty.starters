@@ -12,16 +12,11 @@
     <artifactId>starter-microservice-persistence</artifactId>
     <packaging>pom</packaging>
     <name>Persistence Starters</name>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <modules>
         <module>provided</module>
         <module>runtime</module>
         <module>server-snippet</module>
     </modules>
-
-
-  <scm>
-    <tag>app-accelerator-starters-0.0.1</tag>
-  </scm>
 </project>
