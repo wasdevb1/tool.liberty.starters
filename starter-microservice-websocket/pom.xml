@@ -3,16 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>net.wasdev.maven.parent</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.4</version>
+        <groupId>net.wasdev.wlp.starters</groupId>
+        <artifactId>app-accelerator-starters</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     
     <groupId>net.wasdev.wlp.starters.websocket</groupId>
     <artifactId>starter-microservice-websocket</artifactId>
     <packaging>pom</packaging>
     <name>Websocket Starters</name>
-    <version>0.0.1-SNAPSHOT</version>
 
     <modules>
         <module>provided</module>
