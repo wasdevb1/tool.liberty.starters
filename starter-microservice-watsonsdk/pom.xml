@@ -5,12 +5,12 @@
     <artifactId>starter-microservice-watsonsdk</artifactId>
     <packaging>pom</packaging>
     <name>Watson SDK Starters</name>
+    <version>0.0.2-SNAPSHOT</version>
 
     <parent>
-        <groupId>net.wasdev.wlp.starters</groupId>
-        <artifactId>app-accelerator-starters</artifactId>
-        <version>0.0.2</version>
-        <relativePath>../pom.xml</relativePath>
+        <groupId>net.wasdev.maven.parent</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.4</version>
     </parent>
 
     <modules>
