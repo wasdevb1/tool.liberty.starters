@@ -1,10 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>net.wasdev.wlp.starters.swagger</groupId>
+        <artifactId>starter-microservice-swagger</artifactId>
+        <version>0.0.6-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
 
     <groupId>net.wasdev.wlp.starters.swagger</groupId>
     <artifactId>provided-pom</artifactId>
-    <version>0.0.6</version>
     <packaging>pom</packaging>
 
     <name>provided-pom</name>
@@ -21,7 +26,8 @@
         <connection>scm:git:git@github.com:WASdev/tool.accelerate.core.git</connection>
         <developerConnection>scm:git@github.com:WASdev/tool.accelerate.core.git</developerConnection>
         <url>git@github.com:WASdev/tool.accelerate.core.git</url>
-    </scm>
+      <tag>HEAD</tag>
+  </scm>
 
     <repositories>
         <repository>
