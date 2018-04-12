@@ -2,9 +2,15 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>net.wasdev.wlp.starters.websocket</groupId>
+        <artifactId>starter-microservice-websocket</artifactId>
+        <version>0.0.4-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <groupId>net.wasdev.wlp.starters.websocket</groupId>
     <artifactId>runtime-pom</artifactId>
-    <version>0.0.4</version>
     <packaging>pom</packaging>
 
     <name>runtime-pom</name>
