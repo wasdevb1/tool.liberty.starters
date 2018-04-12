@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>net.wasdev.maven.parent</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.4</version>
+        <groupId>net.wasdev.wlp.starters.rest</groupId>
+        <artifactId>starter-microservice-rest</artifactId>
+        <version>0.0.2-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>net.wasdev.wlp.starters.rest</groupId>
     <artifactId>server-snippet</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>server-snippet</name>
 
