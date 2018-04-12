@@ -2,9 +2,15 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>net.wasdev.wlp.starters.test</groupId>
+        <artifactId>starter-microservice-test</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <groupId>net.wasdev.wlp.starters.test</groupId>
     <artifactId>provided-pom</artifactId>
-    <version>0.0.3</version>
     <packaging>pom</packaging>
 
     <name>provided-pom</name>
