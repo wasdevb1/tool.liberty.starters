@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>net.wasdev.wlp.starters</groupId>
-	<artifactId>app-accelerator-starters</artifactId>
-	<packaging>pom</packaging>
-	<name>Liberty Starters</name>
-	<version>0.1</version>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.wasdev.wlp.starters</groupId>
+    <artifactId>app-accelerator-starters</artifactId>
+    <packaging>pom</packaging>
+    <name>Liberty Starters</name>
+    <version>0.1-SNAPSHOT</version>
 
-	<parent>
-		<groupId>net.wasdev.maven.parent</groupId>
-		<artifactId>parent</artifactId>
-		<version>1.4</version>
-	</parent>
+    <parent>
+        <groupId>net.wasdev.maven.parent</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.4</version>
+    </parent>
 
-	<modules>
-		<module>starter-microservice-microprofile</module>
-		<module>starter-microservice-persistence</module>
-		<module>starter-microservice-rest</module>
-		<module>starter-microservice-springboot-web</module>
-		<module>starter-microservice-swagger</module>
-		<module>starter-microservice-template</module>
-		<module>starter-microservice-test</module>
-		<module>starter-microservice-watsonsdk</module>
-		<module>starter-microservice-web</module>
-		<module>starter-microservice-websocket</module>
-	</modules>
+    <scm>
+        <connection>scm:git:git@github.com:wasdevb1/tool.liberty.starters.git</connection>
+        <developerConnection>scm:git:git@github.com:wasdevb1/tool.liberty.starters.git</developerConnection>
+        <url>git@github.com:wasdevb1/tool.liberty.starters.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <modules>
+        <module>starter-microservice-microprofile</module>
+        <module>starter-microservice-ms-builder</module>
+        <module>starter-microservice-persistence</module>
+        <module>starter-microservice-rest</module>
+        <module>starter-microservice-springboot-web</module>
+        <module>starter-microservice-swagger</module>
+        <module>starter-microservice-template</module>
+        <module>starter-microservice-test</module>
+        <module>starter-microservice-watsonsdk</module>
+        <module>starter-microservice-web</module>
+        <module>starter-microservice-websocket</module>
+    </modules>
 
 </project>
