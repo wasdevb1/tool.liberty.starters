@@ -9,7 +9,7 @@
     <parent>
         <groupId>net.wasdev.wlp.starters</groupId>
         <artifactId>app-accelerator-starters</artifactId>
-        <version>0.0.5</version>
+        <version>0.0.5-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
