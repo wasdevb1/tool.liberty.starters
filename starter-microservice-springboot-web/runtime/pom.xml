@@ -5,7 +5,7 @@
     <parent>
         <groupId>net.wasdev.wlp.starters.springboot-web</groupId>
         <artifactId>starter-microservice-springboot-web</artifactId>
-        <version>0.0.6-SNAPSHOT</version>
+        <version>0.0.6</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -27,7 +27,7 @@
         <connection>scm:git:git@github.com:WASdev/tool.accelerate.core.git</connection>
         <developerConnection>scm:git@github.com:WASdev/tool.accelerate.core.git</developerConnection>
         <url>git@github.com:WASdev/tool.accelerate.core.git</url>
-      <tag>HEAD</tag>
+      <tag>app-accelerator-starters-0.0.6</tag>
   </scm>
 
     <dependencies>
@@ -35,7 +35,7 @@
             <groupId>net.wasdev.wlp.starters.web</groupId>
             <artifactId>server-snippet</artifactId>
             <type>xml</type>
-            <version>0.0.6-SNAPSHOT</version>
+            <version>0.0.6</version>
         </dependency>
     </dependencies>
 
