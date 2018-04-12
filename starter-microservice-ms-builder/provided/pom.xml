@@ -4,7 +4,7 @@
     <parent>
         <groupId>net.wasdev.wlp.starters.ms-builder</groupId>
         <artifactId>starter-microservice-ms-builder</artifactId>
-        <version>0.0.6</version>
+        <version>0.0.7-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -26,7 +26,7 @@
         <connection>scm:git:git@github.com:WASdev/tool.accelerate.core.git</connection>
         <developerConnection>scm:git@github.com:WASdev/tool.accelerate.core.git</developerConnection>
         <url>git@github.com:WASdev/tool.artisan.core.git</url>
-      <tag>app-accelerator-starters-0.0.6</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <repositories>
@@ -42,7 +42,7 @@
             <groupId>net.wasdev.wlp.starters.microprofile</groupId>
             <artifactId>provided-pom</artifactId>
             <type>pom</type>
-            <version>0.0.6</version>
+            <version>0.0.7-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
